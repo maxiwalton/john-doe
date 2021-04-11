@@ -45,7 +45,9 @@ section:target { /* Show section */
 }
 
 section#home { /* Show #home by default */
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ------- Header ------- */
@@ -157,9 +159,7 @@ blockquote:before {
 }
 
 img, svg, video, audio {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
   max-width: 100%;
   height: auto;
   fill: currentColor;
