@@ -25,7 +25,6 @@ body {
   position: relative;
   max-width: 64em;  /* remove this for a full-width layout */
   margin: 0 auto;  /* centers the layout */
-  text-align: center;
 }
 
 /* ------- Sections ------- */
@@ -158,7 +157,9 @@ blockquote:before {
 }
 
 img, svg, video, audio {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   max-width: 100%;
   height: auto;
   fill: currentColor;
