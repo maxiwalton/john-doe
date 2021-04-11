@@ -25,6 +25,9 @@ body {
   position: relative;
   max-width: 64em;  /* remove this for a full-width layout */
   margin: 0 auto;  /* centers the layout */
+  display: flex;
+  justify-content: center; // horizontal
+  align-items: center; // vertical
 }
 
 /* ------- Sections ------- */
